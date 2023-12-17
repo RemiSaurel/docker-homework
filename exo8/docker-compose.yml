@@ -1,11 +1,12 @@
 version: '3'
 
 services:
-  db:
+  db8:
     image: mysql:latest
-    container_name: db
+    container_name: db8
     volumes:
       - db_data:/var/lib/mysql
+      - ./data.sql:/docker-entrypoint-initdb.d/init.sql
     environment:
       MYSQL_USER: dev
       MYSQL_DATABASE: test
@@ -19,7 +20,7 @@ services:
     ports:
       - "8080:8080"
     depends_on:
-      - db
+      - db8
 
 volumes:
   db_data:
