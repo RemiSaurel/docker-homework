@@ -1,0 +1,4 @@
+com/example/devops/domain/PersonRepository.class
+com/example/devops/DevopsApplication.class
+com/example/devops/domain/Person.class
+com/example/devops/web/PersonController.class

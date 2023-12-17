@@ -1,0 +1,56 @@
+version: '3'
+
+services:
+  db:
+    image: mysql:latest
+    container_name: db
+    volumes:
+      - db_data:/var/lib/mysql
+    environment:
+      MYSQL_USER: dev
+      MYSQL_DATABASE: test
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_PASSWORD: root
+    ports:
+      - "3306:3306"
+    networks:
+      - sonarnet
+
+  app:
+    build: .
+    container_name: app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+  sonarqube:
+    image: sonarqube:latest
+    container_name: sonarqube
+    ports:
+      - "9000:9000"
+    environment:
+      - SONARQUBE_JDBC_URL=jdbc:mysql://db:3306/sonarqube?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance&useSSL=false
+      - SONARQUBE_JDBC_USERNAME=dev
+      - SONARQUBE_JDBC_PASSWORD=root
+    networks:
+      - sonarnet
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: phpmyadmin
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=db
+      - PMA_PORT=3306
+    ports:
+      - "8081:80"
+    networks:
+      - sonarnet
+
+networks:
+  sonarnet:
+    driver: bridge
+
+volumes:
+  db_data:
