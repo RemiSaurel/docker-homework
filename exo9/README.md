@@ -14,13 +14,13 @@ réseaux et volumes le cas échéant
 
 ### 📡 SonarQube
 
-Go to this [link](http://localhost:9000/projects/create) and create a new project.
+Aller sur ce [lien](http://localhost:9000/projects/create) et créer un nouveau projet.
 
-Run this command :
+Lancer cette commande :
 ```bash
 mvn clean verify sonar:sonar \
-  -Dsonar.projectKey=exo9 \
-  -Dsonar.projectName='exo9' \
+  -Dsonar.projectKey=PROJECT_KEY \
+  -Dsonar.projectName='PROJECT_NAME' \
   -Dsonar.host.url=http://localhost:9000 \
   -Dsonar.token=YOUR_TOKEN \
   ```
