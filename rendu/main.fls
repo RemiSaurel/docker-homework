@@ -616,12 +616,12 @@ INPUT images/exo9.png
 INPUT ./images/exo9.png
 INPUT ./images/exo9.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT ./images/exo9_desktop.png
 INPUT ./images/exo9_desktop.png
 INPUT images/exo9_desktop.png
 INPUT ./images/exo9_desktop.png
 INPUT ./images/exo9_desktop.png
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT ./images/phpMyAdmin.png
 INPUT ./images/phpMyAdmin.png
 INPUT images/phpMyAdmin.png

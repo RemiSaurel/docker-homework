@@ -2,7 +2,6 @@
 Ce projet de pilotage de projet DevOps a pour but de mettre en pratique les connaissances acquises lors du cours avec l'utilisation de Docker et la mise en place de plusieurs services. 2 exercices seront proposés dans ce rendu, à savoir les exercices VIII et IX.
 Toutes les justifications sont présentes dans la partie \ref{sec:Annexes}, mais vous pouvez retrouver toutes les sources dans \href{https://github.com/RemiSaurel/docker-homework}{\textbf{ce repository GitHub que j'ai créé}}.
 
-
 \section{Architecture}
 \subsection{Exercice VIII}
 \subsubsection*{Architecture générale}
@@ -21,6 +20,8 @@ Le réseau utilisé est le réseau \verb|bridge| de Docker. Un réseau a été e
 \subsubsection*{Types de stockages}
 Comme pour l'exercice VIII, le stockage utilisé est le stockage \verb|volume| de Docker, ici nommé \verb|db_data|. Il est utilisé pour la base de données afin de pouvoir conserver les données même si le conteneur est supprimé.
 \section{Conclusion}
+Ce projet m'a permis de mettre en pratique de façon concrète les éléments vus en cours. Cela m'a notamment servi afin de mieux comprendre les notions de volumes et de réseaux qui restaient assez floues. Pour conclure, cela m'a aidé à découvrir comment Docker pouvait être mis en place très facilement ainsi que les différents services qui pouvaient être utilisés.
+\newpage
 
 \section{Annexes}\label{sec:Annexes}
 Vous pouvez retrouver toutes les sources sur le \href{https://github.com/RemiSaurel/docker-homework}{repository GitHub} que j'ai créé.
@@ -153,6 +154,14 @@ Vous pouvez retrouver les différents services sur les liens suivants :
     \item \href{http://localhost:9000}{http://localhost:9000} pour 
     Sonarqube
 \end{itemize}
+Pour utiliser sonarqube, il faut créer un projet et générer un token. Ce token est à renseigner dans le projet Spring Boot si l'on souhaite que Sonarqube soit actualisé à chaque build. Dans mon cas, l'analyse peut être lancée grâce à la commande suivante :
+\begin{verbatim}
+mvn clean verify sonar:sonar \
+    -Dsonar.projectKey=PROJECT_KEY \
+    -Dsonar.projectName='PROJECT_NAME' \
+    -Dsonar.host.url=http://localhost:9000 \
+    -Dsonar.token=YOUR_TOKEN \
+\end{verbatim}
 
 \subsubsection*{Résultats}
 \begin{figure}[hbtp]
