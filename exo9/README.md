@@ -1,4 +1,4 @@
-# Exo 9
+# 🧑‍💻 Exo 9
 
 ### SonarQube
 
