@@ -1,0 +1,478 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.11.10)  2 MAY 2023 21:32
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-10-26>
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/
+article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/
+size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/
+inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graph
+ics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graph
+ics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graph
+ics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graph
+ics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graph
+ics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graph
+ics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen139
+\stockheight=\dimen140
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/subfi
+g/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/capti
+on/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/capti
+on/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen143
+\captionmargin=\dimen144
+\caption@leftmargin=\dimen145
+\caption@rightmargin=\dimen146
+\caption@width=\dimen147
+\caption@indent=\dimen148
+\caption@parindent=\dimen149
+\caption@hangindent=\dimen150
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count193
+\c@continuedfloat=\count194
+)
+\c@KVtest=\count195
+\sf@farskip=\skip49
+\sf@captopadj=\dimen151
+\sf@capskip=\skip50
+\sf@nearskip=\skip51
+\c@subfigure=\count196
+\c@subfigure@save=\count197
+\c@lofdepth=\count198
+\c@subtable=\count199
+\c@subtable@save=\count266
+\c@lotdepth=\count267
+\sf@top=\skip52
+\sf@bottom=\skip53
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyper
+ref/hyperref.sty
+Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ltx
+cmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ift
+ex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdf
+texcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/generic/inf
+warerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kvset
+keys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/generic/kvd
+efinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdf
+escape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hycol
+or/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/letlt
+xmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/auxho
+ok/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyper
+ref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/refco
+unt/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/generic/get
+titlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kvopt
+ions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count268
+)
+\@linkdim=\dimen152
+\Hy@linkcounter=\count269
+\Hy@pagecounter=\count270
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyper
+ref/pd1enc.def
+File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/generic/int
+calc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ete
+xcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count271
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyper
+ref/puenc.def
+File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count272
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/u
+rl.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen153
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bit
+set/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/generic/big
+intcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count273
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/
+atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count274
+\c@Item=\count275
+\c@Hfootnote=\count276
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyper
+ref/hpdftex.def
+File: hpdftex.def 2022-09-22 v7.00t Hyperref driver for pdfTeX
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/
+atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count277
+\c@bookmark@seq@number=\count278
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/rerun
+filecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/generic/uni
+quecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip54
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/title
+sec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box51
+\beforetitleunit=\skip55
+\aftertitleunit=\skip56
+\ttl@plus=\dimen156
+\ttl@minus=\dimen157
+\ttl@toksa=\toks19
+\titlewidth=\dimen158
+\titlewidthlast=\dimen159
+\titlewidthfirst=\dimen160
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enumi
+tem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip57
+\enit@outerparindent=\dimen161
+\enit@toks=\toks20
+\enit@inbox=\box52
+\enit@count@id=\count279
+\enitdp@description=\count280
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geome
+try/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ift
+ex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count281
+\Gm@cntv=\count282
+\c@Gm@tempcnt=\count283
+\Gm@bindingoffset=\dimen162
+\Gm@wd@mp=\dimen163
+\Gm@odd@mp=\dimen164
+\Gm@even@mp=\dimen165
+\Gm@layoutwidth=\dimen166
+\Gm@layoutheight=\dimen167
+\Gm@layouthoffset=\dimen168
+\Gm@layoutvoffset=\dimen169
+\Gm@dimlist=\toks21
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geome
+try/geometry.cfg))
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3bac
+kend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count284
+\l__pdf_internal_box=\box53
+)
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/context/bas
+e/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count285
+\scratchdimen=\dimen170
+\scratchbox=\box54
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen171
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks23
+)
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epsto
+pdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/Users/remis/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00mik
+tex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 32.
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=443.57848pt
+* \textheight=681.15898pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(inputs/first_page.tex
+<images/MIAGE.png, id=3, 464.73625pt x 120.45pt>
+File: images/MIAGE.png Graphic file (type png)
+<use images/MIAGE.png>
+Package pdftex.def Info: images/MIAGE.png  used on input line 3.
+(pdftex.def)             Requested size: 139.42194pt x 36.13527pt.
+<images/KOSMOS_LOGO.png, id=5, 758.835pt x 192.72pt>
+File: images/KOSMOS_LOGO.png Graphic file (type png)
+<use images/KOSMOS_LOGO.png>
+Package pdftex.def Info: images/KOSMOS_LOGO.png  used on input line 5.
+(pdftex.def)             Requested size: 151.76431pt x 38.5433pt.
+<images/IRIT_LOGO.png, id=6, 2104.86375pt x 2104.86375pt>
+File: images/IRIT_LOGO.png Graphic file (type png)
+<use images/IRIT_LOGO.png>
+Package pdftex.def Info: images/IRIT_LOGO.png  used on input line 7.
+(pdftex.def)             Requested size: 52.60861pt x 52.60861pt.
+ [1
+
+{/Users/remis/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/p
+dftex.map} <./images/MIAGE.png> <./images/KOSMOS_LOGO.png> <./images/IRIT_LOGO.
+png>])
+No file main.toc.
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40     \newpage
+                  [1]
+(/Users/remis/Documents/ALTERNANCE/DOCS_MIAGE/LATEX_IDE/REPORT_TEMPLATE/auxil/m
+ain.aux)
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 10720 strings out of 475381
+ 180535 string characters out of 2768305
+ 523723 words of memory out of 3000000
+ 32001 multiletter control sequences out of 15000+600000
+ 471109 words of font info for 34 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 72i,8n,79p,281b,481s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ </Users/remis/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour
+/jknappen/ec/dpi600/tcbx2488.pk></Users/remis/Library/Application Support/MiKTe
+X/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/remis/Librar
+y/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></Users/remis/Library/Application Support/MiKTeX/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmr17.pfb>
+Output written on /Users/remis/Documents/ALTERNANCE/DOCS_MIAGE/LATEX_IDE/REPORT
+_TEMPLATE/out/main.pdf (2 pages, 192392 bytes).
+PDF statistics:
+ 45 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+

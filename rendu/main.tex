@@ -1,0 +1,47 @@
+% ----------------------
+% MISC PACKAGES AND INIT
+% ----------------------
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem,amssymb}
+\newlist{todolist}{itemize}{1}
+\setlist[todolist]{label=$\square$}
+
+% -------
+% MARGINS
+% -------
+\usepackage{geometry}
+\geometry{hmargin=3cm,vmargin=2cm}
+
+% --------------
+% IMG FAST PATH
+% --------------
+\graphicspath{ {./images/} }
+
+% ----------------
+% SPACING SECTIONS 
+% ----------------
+\titlespacing*{\section}
+{0pt}{1cm}{1cm}
+\titlespacing*{\subsection}
+{0pt}{1cm}{0.5cm}
+
+%********************************%
+\begin{document}
+    \author{Rémi Saurel}
+% ----------
+% FIRST PAGE
+% ----------
+    \input{inputs/first_page}
+
+    \tableofcontents
+    \newpage
+% ----------
+% CONTENT
+% ----------
+    \input{inputs/main.tex}
+\end{document}
